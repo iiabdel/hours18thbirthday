@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/99183a89d4fca1362ded8ee46f40ed47?family=Century+Old+Style+W02+Bold);
+
+.memories {
+    font-family: "Century Old Style";
+    display: flex;
+    flex-direction: column; /* Make items stack vertically */
+    gap: 20px; /* Adds spacing between memories */
+    padding: 20px;
+    background-color: #faecdb; /* soft cream text */
+}
+
+.memory {
+    display: flex; /* Aligns picture and text in a row */
+    flex-direction: row; /* Change to row for side-by-side, column for stacked */
+    gap: 20px; /* Adds space between image and text */
+    align-items: center; /* Centers them vertically */
+}
+
+.memory-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* Optional, makes image corners rounded */
+}
+
+.memory-text {
+    max-width: 500px; /* Limits text width to prevent it from being too wide */
+}
+
+.memory h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.memory p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+@media (max-width: 768px) {
+    .memory {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .memory-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .memory-text {
+      max-width: 100%;
+    }
+  }

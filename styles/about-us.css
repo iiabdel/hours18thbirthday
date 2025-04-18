@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/99183a89d4fca1362ded8ee46f40ed47?family=Century+Old+Style+W02+Bold);
+
+.about-us {
+    background-color: #544333; /* your brown shade */
+    color: #fdf8f2; /* soft cream text */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Caudex', serif;
+  }
+  
+  .about-us-container {
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.01);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.02);
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  
+  .about-us h2 {
+    font-family: "Century Old Style";
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff2e6;
+    letter-spacing: 1px;
+  }
+  
+  .about-us p {
+    white-space: pre-line;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-us strong {
+    color: #ffdcc3;
+  }
+  

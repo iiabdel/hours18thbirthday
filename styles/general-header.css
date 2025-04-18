@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/99183a89d4fca1362ded8ee46f40ed47?family=Century+Old+Style+W02+Bold);
+
+body{
+    font-family: "Century Old Style";
+    margin: 0;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    width: 100%;
+  background-color: rgba(51, 68, 84, 0.7);
+  min-height: 100vh; /* takes full screen height */
+  padding: 0 20px 100px 20px;
+  box-sizing: border-box;
+}
+
+.intro-header{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(25, 32, 39, 0.7);
+    height: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    
+}
+.intro-header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgba(6, 16, 26, 0.7);
+}
+.intro-header span{
+    font-weight: 800;
+    color: rgba(6, 16, 26, 0.7);
+    font-size: 20px;
+}
+
+.intro-header:nth-child(1) p{
+    text-align: right;
+    width: 10px;
+    margin: 10px;
+}
+.section-picture{
+    width: 100%;
+  height: 100vh; /* fills full screen */
+  overflow: hidden;
+
+}
+.section-picture .section-one-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%; /* adjust this to center the kiss */
+    display: block; /* remove default inline img spacing */
+
+}
+.intro-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: rgba(17, 21, 26, 0.7);
+}
+
+.english-poam-line{
+    font-size: clamp(24px, 5vw, 40px); /* Responsive font size */
+    text-align: center;
+
+}
+
+
+@media (max-width: 768px) {
+    .section-one-pic {
+      object-position: center 30%;
+    }
+}
